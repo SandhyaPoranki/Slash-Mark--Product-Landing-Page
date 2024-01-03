@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 135px;
+        
+        }
+        .dress-text{
+            font-size: 30px;
+            color: #7D0A0A;
+        }
+
+        .text-color
+        {
+            color:black;
+            font-size: large;
+            font-weight: bolder;
+        }
+        
+        .rainbow {
+            background: linear-gradient(to right, red, blue , brown, green, rgb(212, 0, 255), blue, violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: larger;
+            font-weight: bold;
+        }
+        
+        .glitter {
+            background: url("https://media.giphy.com/media/RF9WyGuttvnNe/giphy.gif");
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+            </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Elegant Bride Boutique</title>
+</head>
+
+<body>
+<video autoplay loop muted plays-inline class="back-video">
+    <source src="images/backvideo1.mp4" type="video/mp4"></video>
+    <header>
+        <div class="logo">
+            <span class="rainbow"><a href="#">ElegantBrideBoutique</a></span> 
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart"> <i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="main-content">
+        <h1><span class="glitter"><b>Elegant Bride Boutique</b></span></h1>
+        <p>
+        "Where dreams meet design, and elegance finds its home.
+         At Elegant Bride Boutique,we believe in the power of a gown to tell a love story. Unveil the enchantment, embrace the beauty, 
+             and step into a world where every stitch is a promise of forever.
+              Your journey begins here – where elegance meets emotion, and your bridal dreams take center stage."</p>
+    </div>
+    <div class="ImgBox">
+        <img src="images/bride image.png">
+    </div>
+    </div>
+
+    <div class="about" id="about">
+            <h3>ABOUT</h3>
+        <div class="about-content">
+            <div class="text">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to Elegant Bride Boutique, where dreams meet design in the world of Western wedding elegance.
+                     At our boutique, we celebrate the unique journey of every bride, offering a handpicked collection of exquisite 
+                     wedding dresses that blend timeless sophistication with contemporary flair.
+
+                    Our curated selection showcases a variety of styles, from the classic  A-line to the alluring mermaid, each gown meticulously
+                     crafted to capture the essence of Western bridal fashion. Adorned with delicate lace, intricate beadwork, and sumptuous fabrics, our
+                      dresses are a testament to the artistry and elegance that define your special day.
+
+                      Elegant Bride Boutique is more than a store; it's a destination where brides embark on a journey to find the perfect gown that reflects 
+                      their individual style and story. We understand that choosing the right dress is an integral part of your wedding experience, and we are here
+                       to make that journey memorable, seamless, and filled with joy.
+
+                      Explore our collection and let us be a part of your wedding story. At Elegant Bride Boutique, we believe that every bride deserves to shine on her big day, 
+                      and we are honored to be a part of this magical chapter in your life.
+                      
+                      
+                      </p>
+            </div>
+                <div class="about-image">
+                    <img src="images/white3.jpg" alt="">
+                </div>
+                
+            
+        </div>
+    </div>
+
+
+    <div class="collections" id="collections">
+        <div class="collections-header">
+            <h3>COLLECTIONS</h3>
+        </div>
+        <div class="collections-box">
+         <div class="wrapper">
+                    <div class="card-image">
+                        <img src="images/gold.png" height="330px" id="dress">
+                    </div>
+                    
+                <div class="wrapper-content">
+                    <div class="wrapper-text">
+                        
+                        <h1><span class="dress-text">BALL GOWN</span></h1>
+                    <p><span class="text-color">Ball Gown</span> wedding dress features a voluminous skirt, creating a dramatic silhouette with a fitted bodice for an elegant,
+                         princess-like look. Versatile in fabrics and styles, ball gowns cater to various preferences, making them a timeless and enchanting choice for brides seeking a fairytale aesthetic.
+                           Perfect for those who want to make a statement, these dresses exude romance and sophistication, embodying a classic and enduring bridal style.  
+                        </p>
+
+                       
+
+                   </div>
+                 
+                   <div class="small-img">
+                    <h3 id="price"><center>MRP</center> ₹18,000</h3>
+                    <img src="images/gold.png"          onclick="myDress(this.src)"    alt="">
+                    <img src="images/blue.png"          onclick="myDress(this.src)"    alt="">
+                    <img src="images/glitter.png"       onclick="myDress(this.src)"    alt="">
+                    <img src="images/black.png"         onclick="myDress(this.src)"    alt="">
+                    <img src="images/red.png"           onclick="myDress(this.src)"    alt="">
+                    <img src="images/white dress.png"   onclick="myDress(this.src)"    alt="">
+                </div>
+                </div>
+              
+            
+            
+        </div>
+        <div class="wrapper">
+                    <div class="card-image">
+                        <img src="images/red trumpet.png" height="330px" id="dress1">
+                    </div>
+                    <div class="wrapper-content">
+                        <div class="wrapper-text">
+                            <h1><span class="dress-text">TRUMPET</span></h1>
+                        <p><span class="text-color">Trumpet</span> wedding dress is a chic and contemporary choice, known for its fitted bodice that flares out around mid-thigh,
+                             resembling the shape of a trumpet or mermaid tail.Typically featuring strapless or off-the-shoulder necklines, trumpet 
+                             dresses exude a modern and glamorous feel.
+                               Perfect for brides who desire a stylish and form-fitting silhouette, trumpet wedding dresses effortlessly blend elegance with a hint of drama.
+
+                        </p>
+                        
+                       </div>
+                       <div class="small-img">
+                        <h3><center>MRP</center> ₹11,500</h3>
+                        <img src="images/red trumpet.png"            onclick="myDress1(this.src)"    alt="">
+                        <img src="images/trumpet peach.png"          onclick="myDress1(this.src)"    alt="">
+                        <img src="images/trumpet gold.png"           onclick="myDress1(this.src)"    alt="">
+                        <img src="images/trumpet white.png"          onclick="myDress1(this.src)"    alt="">
+                        <img src="images/black trumpet.png"          onclick="myDress1(this.src)"    alt="">
+                        <img src="images/green trumpet.png"           onclick="myDress1(this.src)"    alt="">
+                    </div>
+                    
+                    </div>
+                
+                    <!--<div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">2.79$</label>
+                        <h3>Frappe</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>-->
+                </div>
+            <div class="wrapper">
+                    <div class="card-image">
+                        <img src="images/mermaid black.png" height="330px" id="dress2">
+                    </div>
+                    <div class="wrapper-content">
+                        <div class="wrapper-text">
+                            <h1><span class="dress-text">MERMAID</span></h1>
+                        <p><span class="text-color">Mermaid</span> wedding dress is a show-stopping choice characterized by its form-fitting silhouette that hugs the body from
+                             the chest to the knee and then flares out dramatically to resemble a mermaid's tail. This style accentuates curves and creates a sleek, glamorous look.
+                              Mermaid dresses often feature strapless or sweetheart necklines, adding a touch of romance. Ideal for brides seeking a sultry 
+                               and statement-making gown, mermaid wedding dresses exude confidence and modern sophistication.
+                            </p>
+                        
+    
+                       </div>
+                       <div class="small-img">
+                        <h3><center>MRP</center> ₹15,600</h3>
+                        <img src="images/mermaid black.png"          onclick="myDress2(this.src)"    alt="">
+                        <img src="images/mermaid green.png"          onclick="myDress2(this.src)"    alt="">
+                        <img src="images/mermaid purple.png"       onclick="myDress2(this.src)"    alt="">
+                        <img src="images/mermaid red.png"         onclick="myDress2(this.src)"    alt="">
+                        <img src="images/mermaid white.png"           onclick="myDress2(this.src)"    alt="">
+                        <img src="images/mermaid blue.png"   onclick="myDress2(this.src)"    alt="">
+                    </div>
+                    
+                    </div>
+                
+        
+            </div>
+            <div class="wrapper">
+                    <div class="card-image">
+                        <img src="images/aline brown.png" height="340px" id="dress3">
+                    </div>
+                    <div class="wrapper-content">
+                    <div class="wrapper-text">
+                        <h1><span class="dress-text">A-LINE</span></h1>
+                    <p><span class="text-color">A-Line</span> wedding dress is a timeless and universally flattering choice known for its silhouette that resembles the letter "A."
+                         This style features a fitted bodice that gradually flares out from the natural waist, creating a graceful and flowing skirt.
+                          A-line dresses suit various body shapes and provide a classic and elegant look. Perfect for brides seeking a romantic and universally appealing silhouette, A-line wedding dresses offer timeless beauty and ease of movement.
+
+                    </p>
+                        
+                    </div>
+                    <div class="small-img">
+                        <h3><center>MRP</center> ₹9200</h3>
+                        <img src="images/aline brown.png"          onclick="myDress3(this.src)"    alt=""   height="90px">
+                        <img src="images/aline green.png"          onclick="myDress3(this.src)"    alt="" height="90px">
+                        <img src="images/aline peach.png"       onclick="myDress3(this.src)"    alt="" height="90px">
+                        <img src="images/aline pink.png"         onclick="myDress3(this.src)"    alt="" height="90px">
+                        <img src="images/aline red.png"           onclick="myDress3(this.src)"    alt="" height="90px">
+                        <img src="images/aline white.png"   onclick="myDress3(this.src)"    alt="" height="90px">
+                    
+                    </div>
+                    
+                    
+                </div>
+            </div>
+              
+                    
+               
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    <div class="contact" id="contact">
+        <div class="contact-box">
+            <div class="contact-image">
+                <img src="images/decor.png">
+            </div>
+        </div>
+        <div class="contact-box">
+            <div class="contact-body">
+                <form>
+                    <h2>Contact Us</h2>
+                    <div class="form-content">
+                        <input type="text" required>
+                        <span></span>
+                        <label>Username</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="email" required>
+                        <span></span>
+                        <label>Email</label>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <label>Copyright &copy; Sandhya Poranki</label>
+            </div>
+            <div class="brand">
+                <label>ElegantBrideBoutique</label>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        let bigImage = document.getElementById('dress');
+        function myDress(minedress)
+        {
+            bigImage.src=minedress
+        }
+        let bigImage1 = document.getElementById('dress1');
+        function myDress1(mine1dress)
+        {
+            bigImage1.src=mine1dress
+        }
+        let bigImage2 = document.getElementById('dress2');
+        function myDress2(mine2dress)
+        {
+            bigImage2.src=mine2dress
+        }
+        let bigImage3 = document.getElementById('dress3');
+        function myDress3(mine3dress)
+        {
+            bigImage3.src=mine3dress
+        }
+
+        
+
+
+        
+        
+    </script>
+</body>
+
+</html>
